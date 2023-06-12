@@ -1,0 +1,287 @@
+body{
+    font-style: normal;
+    font-size: 20px;
+    font-family: 'Heebo', sans-serif;
+}
+
+/* navbar */
+
+.navbar{
+    background-color: #8D7B68;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+    
+}
+
+
+
+.navbar .navbar-brand{
+    color: white;
+    font-size: 25px;
+    
+}
+
+
+
+.navbar .navbar-nav{
+    margin-left: 60%;
+    color: white;
+    float: left;
+    font-size: 18px;
+}
+
+/* end nav */
+
+/* header */
+.main-banner {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 300%;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    padding-top: 60px;
+    padding-right: 150px;
+    background-color: #A4907C;
+  }
+
+  .main-banner .judulhijau{
+    color: #ffff;
+    position: relative;
+    font-weight: bolder;
+    font-size: 50px;
+  }
+  
+  .main-banner .judulhitam {
+    position: relative;
+    font-weight: bolder;
+    font-size: 45px;
+    color: #2a2a2a;
+  }
+  
+  .main-banner #btnmore{
+      background-color: #C8B6A6;
+      border-radius: 10px;
+      height: 45.97px;
+      font-size: 17px;
+      margin-right: 70px;
+      padding-left: 40px;
+      padding-right: 40px;
+  }
+
+  .main-banner .left-content{
+    width: 800px;
+  }
+
+  .main-banner .left-content p {
+    text-align: justify;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 17px;
+  }
+  
+  .main-banner .right-image {
+    text-align: right;
+    position: relative;
+    z-index: 20;
+  }
+  
+  .main-banner .right-image img {
+    max-height: 490px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+  }
+
+  /* end header */
+
+  /* About */
+
+  .card4{
+    background-color: #FFF4E0;
+  }
+  
+  .card1{
+    padding-top: 50px;
+    border: white;
+    background-color: #FFF4E0;
+    
+  }
+
+  .card-img-top{
+    width: 600px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+  }
+  
+  /* end about */
+
+
+  /* gallery */
+
+  .d-block{
+    padding-top: 50px;
+    
+  }
+
+  /* .carousel-item{
+    position: absolute;
+  } */
+
+
+  /* end gallery */
+
+  /* review */
+  
+  .card3{
+    background-color: #fff;
+    padding: 30px;
+  }
+
+  .use1{
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+
+  /* end rev */
+
+  /* contact us */
+
+  .contact .info {
+    width: 100%;
+    background: #fff;
+  }
+  .contact .info i {
+    font-size: 20px;
+    color: #C8B6A6;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #effbf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #222222;
+  }
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #555555;
+  }
+  .contact .info .email, .contact .info .phone {
+    margin-top: 40px;
+  }
+  .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+    background: #C8B6A6;
+    color: #fff;
+  }
+  
+  @-webkit-keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  /* end cont */
+
+    /* room */
+
+    .card-text{
+      font-family: 'Syne', sans-serif;
+      padding-top: 10px;
+    }
+
+    .card-title1{
+      padding-top: 20px;
+      font-weight: bold; 
+      font-family: 'Vidaloka', serif;
+    }
+
+    .card11{
+      border: white;
+    }
+    .card12{
+      padding-top: 50px;
+      margin: 30px;
+      border: white;
+    }
+  
+    .btn1{
+      background-color: #967E76;
+      border: #fff;
+      margin-left: 20px;
+      color: white;
+      border-radius: 5px;
+    }
+    .btn2{
+      background-color: #967E76;
+      border: #fff;
+      color: white;
+      border-radius: 5px;
+    }
+  
+    /* end room */
+
+  /* form */
+  
+  .judulform{
+    padding: 20px;
+    margin-left: 500px;
+    font-family: 'Vidaloka', serif;
+    
+  }
+
+  .background1{
+    background-color: #F7E1AE;
+  }
+
+  .nama{
+    margin-left: 420px;
+    font-family: 'Vidaloka', serif;
+    font-size: 20px;
+  }
+
+  .form1{
+    padding: 10px;
+    margin-left: 400px;
+    width: 600px;
+  }
+
+  .form2{
+    padding: 10px;
+    margin-left: 410px;
+    width: 600px;
+  }
+
+  .form3{
+    margin-left: 410px;
+    font-size: 18px;
+  }
+
+  .nama2{
+    font-family: 'Vidaloka', serif;
+    font-size: 20px;
+  }
+
+  /* end form */
